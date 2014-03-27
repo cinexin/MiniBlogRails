@@ -11,3 +11,97 @@
  *= require_self
  *= require_tree .
  */
+
+a {
+	display: inline-block;
+	background-color: #044A7C;
+	border-radius: 1em;
+	color:#7CAFB0;
+	padding:.2em .4em .2em .4em;
+}
+
+a:hover{
+	background-color: #019EAF;
+	color:#023132;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+body {
+	font-family: Helvetica
+}
+
+
+div#error_explanation {
+	color: #A80A0A;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+	display: block;
+	background-color: #044A7C;
+	padding: .2em .5em .2em .5em;
+	color:#EAF4F5;
+	text-align: center;
+	margin-top:0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+
+}
+
+h2 {
+	font-size: 1em;
+	display: block;
+	background-color: #044A7C;
+	color:#EAF4F5;
+	padding: .3em .4em .3em .4em;
+}
+
+h3 {
+	font-size: .7en;
+	padding-top: 1em;
+}
+
+input {
+	border-radius: 1em;
+	outline: none;
+}
+
+input:focus {  
+    -webkit-box-shadow: 0px 0px 5px #007eff;  
+    -moz-box-shadow: 0px 0px 5px #007eff;  
+    box-shadow: 0px 0px 5px #007eff;  
+}  
+
+.textarea {
+	border-radius: 1em;
+	outline: none;
+}
+
+.textarea:focus{
+    -webkit-box-shadow: 0px 0px 5px #007eff;  
+    -moz-box-shadow: 0px 0px 5px #007eff;  
+    box-shadow: 0px 0px 5px #007eff;  
+}
+
+table {
+	margin-bottom: 1em;
+}
+
+td {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+th {
+
+}
+
+tr:hover {
+	
+	color:#023B64;
+}
