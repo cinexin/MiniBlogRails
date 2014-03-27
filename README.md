@@ -18,7 +18,7 @@ Then, if you have curiosity, you can dive into the starting guide and/or dive in
   
 Probably less than it took to me, and probably less than you think ;-)
 
-4.- Requeriments
+4.- What do I need to run it?
    
  - Rails 4
  - SQLite 3
