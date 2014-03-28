@@ -29,6 +29,7 @@ class PostsController < ApplicationController
 	def show
 		# note: Rails will pass all instance variables to the view
 		@post = Post.find(params[:id])
+		#@comment = @post.comments.find(params[:comment_id])
 	end
 
 	def index

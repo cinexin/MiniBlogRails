@@ -23,7 +23,12 @@ Probably less than it took to me, and probably less than you think ;-)
  - Rails 4
  - SQLite 3
  - You
- 
+
+5.- Known issues :-(
+
+	- When I update a blog post, it deletes all associated comments!
+	- I don't know how to show errors when submitting a comment :(
+	 
 5.- Contact
 
 migueguillamon@gmail.com

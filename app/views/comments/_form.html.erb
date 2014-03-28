@@ -1,14 +1,27 @@
+
+
 <%= form_for([@post, @post.comments.build]) do |f| %>
+
 	<p>
 		<%= f.label :commenter %><br/>
-		<%= f.text_field :commenter %>
+		<%= f.text_field :commenter, :placeholder=>"Your nickname" %>
 	</p>
 	<p>
 		<%= f.label :body %><br />
-		<%= f.text_area :body, :cols=>"30", :rows=>"4", :class=>"textarea" %>
+		<%= f.text_area :body, :cols=>"30", :rows=>"4", :class=>"textarea", :placeholder=>"Your comment" %>
 	</p>
 
 	<p>
 		<%= f.submit %>
 	</p>
+
 <% end %>
+
+<p>Comment id: <%= params[:comment_id] %></p>
+<% if @comment && @comment.errors.any? %>	
+	<h2>Errores</h2> 
+
+<%
+
+	end
+%>
